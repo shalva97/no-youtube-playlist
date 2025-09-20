@@ -4,9 +4,9 @@ Browser extension that disables YouTube's playlist functionality.
 
 ## Install
 
-1. Download from browser store
-2. Enable extension
-3. Refresh YouTube tabs
+1. Clone this repo
+2. Enable dev mode in Chrome
+3. Use Load Unpacked to load this extension
 
 ## Features
 
