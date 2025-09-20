@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Playlist Remover",
+  "version": "1.0",
+  "description": "Removes playlist parameters from YouTube video URLs.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ]
+}
